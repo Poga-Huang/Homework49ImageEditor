@@ -23,12 +23,6 @@ class EditMessageViewController: UIViewController {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    //回傳資料
-    var returnToMainComments:String?{
-        get{
-            return editTextField.text
-        }
-    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
